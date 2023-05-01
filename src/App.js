@@ -7,9 +7,11 @@ import "./App.css";
 // import ClassTimer from './components/ProductList/ClassTimer';
 // import FunctionalTimer from './components/ProductList/FunctionalTimer';
 import Wrapper from "./components/hoc/Wrapper";
-import HoverCounter from "./components/hocExample/HoverCounter";
-import ClickCounter from "./components/hocExample/ClickCounter";
-import ParentComp from "./components/pureMemoComp/ParentComp";
+// import HoverCounter from "./components/hocExample/HoverCounter";
+// import ClickCounter from "./components/hocExample/ClickCounter";
+// import ParentComp from "./components/pureMemoComp/ParentComp";
+import ClassRef from "./components/ref/ClassRef";
+import FunctionalRef from "./components/ref/FunctionalRef";
 
 class App extends Component {
   constructor(props) {
@@ -92,7 +94,9 @@ class App extends Component {
     console.log(this.props);
     return (
       <>
-        <ParentComp />
+        <FunctionalRef />
+        {/* <ClassRef /> */}
+        {/* <ParentComp /> */}
         {/* <ClickCounter /> */}
         {/* <HoverCounter /> */}
         {/* <NavBar 
